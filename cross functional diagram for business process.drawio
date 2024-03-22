@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-22T05:11:08.389Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="BroB0wB1In63VeELjVSz" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-22T05:14:12.315Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="BS-h8zgeX2QBuFU3IreR" version="24.0.7" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1162" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         <mxCell id="drMao2CNBJefgwkVkPB2-40" value="Movie Screening Operations At Tongariro Cinemas Limited" style="shape=table;childLayout=tableLayout;startSize=40;collapsible=0;recursiveResize=0;expand=0;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="100" y="370" width="530" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="drMao2CNBJefgwkVkPB2-41" value="Ticketing&#xa;System" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-40">
+        <mxCell id="drMao2CNBJefgwkVkPB2-41" value="Audio&#xa;Management" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-40">
           <mxGeometry y="40" width="530" height="80" as="geometry" />
         </mxCell>
         <mxCell id="drMao2CNBJefgwkVkPB2-42" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-41">
@@ -90,10 +90,10 @@
             <mxRectangle width="490" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="drMao2CNBJefgwkVkPB2-43" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Records ticket sale and payment details&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-42">
+        <mxCell id="drMao2CNBJefgwkVkPB2-43" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Monitor screening quality&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-42">
           <mxGeometry x="130" y="20" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="drMao2CNBJefgwkVkPB2-44" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Confirms ticket purchase and provides ticket and receipt&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-42">
+        <mxCell id="drMao2CNBJefgwkVkPB2-44" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Address technical issues&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-42">
           <mxGeometry x="260" y="20" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="drMao2CNBJefgwkVkPB2-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="drMao2CNBJefgwkVkPB2-42" source="drMao2CNBJefgwkVkPB2-43" target="drMao2CNBJefgwkVkPB2-44">
@@ -101,13 +101,15 @@
             <mxPoint x="235" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="drMao2CNBJefgwkVkPB2-46" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Updates seating chart and inventory records&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-42">
-          <mxGeometry x="380" y="20" width="90" height="40" as="geometry" />
+        <mxCell id="drMao2CNBJefgwkVkPB2-57" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Successful screening &lt;br&gt;of movie&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="drMao2CNBJefgwkVkPB2-42">
+          <mxGeometry x="390" y="20" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="drMao2CNBJefgwkVkPB2-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="drMao2CNBJefgwkVkPB2-42" source="drMao2CNBJefgwkVkPB2-44" target="drMao2CNBJefgwkVkPB2-46">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="drMao2CNBJefgwkVkPB2-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="drMao2CNBJefgwkVkPB2-42" source="drMao2CNBJefgwkVkPB2-44" target="drMao2CNBJefgwkVkPB2-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375.02857142857147" y="90" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="drMao2CNBJefgwkVkPB2-48" value="Cashier" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-40">
+        <mxCell id="drMao2CNBJefgwkVkPB2-48" value="Theater Staff" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-40">
           <mxGeometry y="120" width="530" height="80" as="geometry" />
         </mxCell>
         <mxCell id="drMao2CNBJefgwkVkPB2-49" style="swimlane;swimlaneHead=0;swimlaneBody=0;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-48">
@@ -118,7 +120,7 @@
         <mxCell id="drMao2CNBJefgwkVkPB2-50" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Processes ticket purchase and payment&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-49">
           <mxGeometry x="10" y="-60" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="drMao2CNBJefgwkVkPB2-51" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Verifies ticket availability and seat availability.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-49">
+        <mxCell id="drMao2CNBJefgwkVkPB2-51" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Ensure theater cleanliness and readiness&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="drMao2CNBJefgwkVkPB2-49">
           <mxGeometry x="10" y="20" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="drMao2CNBJefgwkVkPB2-52" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Prepare and set up projection equipment&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="drMao2CNBJefgwkVkPB2-49">
@@ -138,20 +140,11 @@
             <mxRectangle width="490" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="drMao2CNBJefgwkVkPB2-57" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;Customer takes receipt and enjoys the movie&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="drMao2CNBJefgwkVkPB2-56">
-          <mxGeometry x="380" y="20" width="90" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="drMao2CNBJefgwkVkPB2-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.019;exitY=0.495;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="drMao2CNBJefgwkVkPB2-40" source="drMao2CNBJefgwkVkPB2-50" target="drMao2CNBJefgwkVkPB2-43">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="235" y="320" as="sourcePoint" />
             <mxPoint x="200" y="350" as="targetPoint" />
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="drMao2CNBJefgwkVkPB2-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="drMao2CNBJefgwkVkPB2-40" source="drMao2CNBJefgwkVkPB2-46" target="drMao2CNBJefgwkVkPB2-57">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="90" as="sourcePoint" />
-            <mxPoint x="430" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
